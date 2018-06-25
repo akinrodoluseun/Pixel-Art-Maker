@@ -2,14 +2,12 @@ const table = '#pixelCanvas';
 // Set target ID to variable.
 
 const row = '<tr></tr>';
-// Set row elements to variable.
 
 const cell = '<td></td>';
 // Set cell elements to variable.
 
 $('#sizePicker').submit(function makeGrid (event, height, width) {
 // When the sizePicker form is submitted, run the makeGrid function.
-// The makeGrid function takes the parameters event, height, and width.
 
   event.preventDefault();
   // Prevent auto-refresh from deleting grid as it's displayed.
